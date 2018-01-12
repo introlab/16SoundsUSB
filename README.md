@@ -1,4 +1,5 @@
-# 16SoundsUSB
+# 16SoundsUSB ![Analytics](https://ga-beacon.appspot.com/UA-27707792-5/github-main?pixel) 
+
 16 Synchronized Inputs USB Sound Card.
 
 Coming soon in 2018.
