@@ -8,9 +8,13 @@
   * Cirrus Logic CS4384 high quality DAC (4/8 outputs used)
   * 2 Analog stereo outputs - 3.5 mm jack output format, 10 kΩ source impedance 
 * XTAG programming port
-* Expansion header (I2C, 3V3, GND)
+* Expansion header :
+  * I2C-SDA, I2C-SCL, 5V, GND, GPIO
 * Supported Sampling Rates :
   * 44.1 kHz, 48 kHz, 96 kHz
+* Power :
+  * USB Powered or
+  * External 5V power supply
 * Supported Operating Systems :
   * Mac OSX, Linux, Windows 10 (UAC2 not working yet)
 
