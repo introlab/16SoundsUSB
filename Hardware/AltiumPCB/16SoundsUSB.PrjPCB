@@ -30,7 +30,7 @@ DItemRevisionGUID=
 ReportSuppressedErrorsInMessages=0
 FSMCodingStyle=eFMSDropDownList_OneProcess
 FSMEncodingStyle=eFMSDropDownList_OneHot
-OutputPath=
+OutputPath=Project Outputs for 16SoundsUSB
 LogFolderPath=
 ManagedProjectGUID=
 
@@ -277,87 +277,7 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [GeneratedDocument1]
-DocumentPath=Project Outputs for 16SoundsUSB\2018-01-04\NC Drill\PCB3.DRR
-DItemRevisionGUID=
-
-[GeneratedDocument2]
-DocumentPath=Project Outputs for 16SoundsUSB\2018-01-04\Gerber\PCB3.EXTREP
-DItemRevisionGUID=
-
-[GeneratedDocument3]
-DocumentPath=Project Outputs for 16SoundsUSB\2018-01-04\Gerber\PCB3.G1
-DItemRevisionGUID=
-
-[GeneratedDocument4]
-DocumentPath=Project Outputs for 16SoundsUSB\2018-01-04\Gerber\PCB3.G2
-DItemRevisionGUID=
-
-[GeneratedDocument5]
-DocumentPath=Project Outputs for 16SoundsUSB\2018-01-04\Gerber\PCB3.GBL
-DItemRevisionGUID=
-
-[GeneratedDocument6]
-DocumentPath=Project Outputs for 16SoundsUSB\2018-01-04\Gerber\PCB3.GBO
-DItemRevisionGUID=
-
-[GeneratedDocument7]
-DocumentPath=Project Outputs for 16SoundsUSB\2018-01-04\Gerber\PCB3.GBP
-DItemRevisionGUID=
-
-[GeneratedDocument8]
-DocumentPath=Project Outputs for 16SoundsUSB\2018-01-04\Gerber\PCB3.GBS
-DItemRevisionGUID=
-
-[GeneratedDocument9]
-DocumentPath=Project Outputs for 16SoundsUSB\2018-01-04\Gerber\PCB3.GD1
-DItemRevisionGUID=
-
-[GeneratedDocument10]
-DocumentPath=Project Outputs for 16SoundsUSB\2018-01-04\Gerber\PCB3.GKO
-DItemRevisionGUID=
-
-[GeneratedDocument11]
-DocumentPath=Project Outputs for 16SoundsUSB\2018-01-04\Gerber\PCB3.GTL
-DItemRevisionGUID=
-
-[GeneratedDocument12]
-DocumentPath=Project Outputs for 16SoundsUSB\2018-01-04\Gerber\PCB3.GTO
-DItemRevisionGUID=
-
-[GeneratedDocument13]
-DocumentPath=Project Outputs for 16SoundsUSB\2018-01-04\Gerber\PCB3.GTP
-DItemRevisionGUID=
-
-[GeneratedDocument14]
-DocumentPath=Project Outputs for 16SoundsUSB\2018-01-04\Gerber\PCB3.GTS
-DItemRevisionGUID=
-
-[GeneratedDocument15]
-DocumentPath=Project Outputs for 16SoundsUSB\2018-01-04\NC Drill\PCB3.LDP
-DItemRevisionGUID=
-
-[GeneratedDocument16]
-DocumentPath=Project Outputs for 16SoundsUSB\2018-01-04\Gerber\PCB3.REP
-DItemRevisionGUID=
-
-[GeneratedDocument17]
-DocumentPath=Project Outputs for 16SoundsUSB\2018-01-04\ExportSTEP\PCB3.step
-DItemRevisionGUID=
-
-[GeneratedDocument18]
-DocumentPath=Project Outputs for 16SoundsUSB\2018-01-04\NC Drill\PCB3.TXT
-DItemRevisionGUID=
-
-[GeneratedDocument19]
 DocumentPath=PCB3 2016-09-17 20-33-01.WAS
-DItemRevisionGUID=
-
-[GeneratedDocument20]
-DocumentPath=Project Outputs for 16SoundsUSB\2018-01-04\Pick Place\Pick Place for PCB3.csv
-DItemRevisionGUID=
-
-[GeneratedDocument21]
-DocumentPath=Project Outputs for 16SoundsUSB\2018-01-04\Pick Place\Pick Place for PCB3.txt
 DItemRevisionGUID=
 
 [Parameter1]
@@ -383,7 +303,7 @@ GenerateBOM=1
 OutputJobsCount=0
 
 [Generic_EDE]
-OutputDir=
+OutputDir=Project Outputs for 16SoundsUSB
 
 [OutputGroup1]
 Name=Netlist Outputs
