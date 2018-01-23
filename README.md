@@ -22,8 +22,8 @@
 
 ## Pictures
 
-![16SoundsUSB Top](https://github.com/introlab/16SoundsUSB/blob/master/16SoundsUSB_Top.png)
-![16SoundsUSB Bottom](https://github.com/introlab/16SoundsUSB/blob/master/16SoundsUSB_Bottom.jpg)
+![16SoundsUSB Top](https://github.com/introlab/16SoundsUSB/blob/master/images/16SoundsUSB_Top.png)
+![16SoundsUSB Bottom](https://github.com/introlab/16SoundsUSB/blob/master/images/16SoundsUSB_Bottom.jpg)
 
 
 ## License
@@ -33,5 +33,5 @@
 ## Acknowledgements
 The design is based on the [XMOS xCORE-200 Multichannel Audio Platform](https://www.xmos.com/support/boards?product=18334). This project is supported by [IntRoLab - Intelligent / Interactive / Integrated / Interdisciplinary Robot Lab](https://introlab.3it.usherbrooke.ca/), Sherbrooke, Québec, Canada.
 
-![IntRoLab](https://github.com/introlab/16SoundsUSB/blob/master/IntRoLab.png)
+![IntRoLab](https://github.com/introlab/16SoundsUSB/blob/master/images/IntRoLab.png)
 
