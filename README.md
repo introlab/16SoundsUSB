@@ -23,7 +23,7 @@
 ## Pictures
 
 ![16SoundsUSB Top](https://github.com/introlab/16SoundsUSB/blob/master/images/16SoundsUSB_Top.png)
-![16SoundsUSB Bottom](https://github.com/introlab/16SoundsUSB/blob/master/images/16SoundsUSB_Bottom.jpg)
+![16SoundsUSB Bottom](https://github.com/introlab/16SoundsUSB/blob/master/images/16SoundsUSB_Bottom.png)
 
 
 ## License
