@@ -7,6 +7,8 @@
 * 4 Synchronized Single Ended Outputs :
   * Cirrus Logic CS4384 high quality DAC (4/8 outputs used)
   * 2 Analog stereo outputs - 3.5 mm jack output format, 10 kΩ source impedance 
+* Low Jitter Master Clock :
+  * Cirrus Logic clock generator and clock multiplier/jitter reduced clock frequency synthesizer CS2100
 * XTAG programming port
 * Expansion header :
   * I2C-SDA, I2C-SCL, 5V, GND, GPIO
