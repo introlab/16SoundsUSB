@@ -3,7 +3,7 @@
 ## Features
 
 * 16 Synchronized Differential Inputs :
-  * Cirrus Logic CS5368 high quality ADC (2x 8 channels) 
+  * 2 x Cirrus Logic CS5368 high quality ADC (16 channels) 
 * 4 Synchronized Single Ended Outputs :
   * Cirrus Logic CS4384 high quality DAC (4/8 channels used)
   * 2 Analog stereo outputs - 3.5 mm jack output format, 600Ω source impedance 
