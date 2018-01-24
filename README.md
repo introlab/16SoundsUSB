@@ -1,14 +1,14 @@
-## 16SoundsUSB - 16 Synchronized Inputs USB (UAC2) Sound Card. ![Analytics](https://ga-beacon.appspot.com/UA-27707792-5/github-main?pixel) 
+﻿## 16SoundsUSB - 16 Synchronized Inputs USB (UAC2) Sound Card. ![Analytics](https://ga-beacon.appspot.com/UA-27707792-5/github-main?pixel) 
 
 ## Features
 
 * 16 Synchronized Differential Inputs :
-  * Cirrus Logic CS5368 high quality ADC (2x8) 
+  * Cirrus Logic CS5368 high quality ADC (2x 8 channels) 
 * 4 Synchronized Single Ended Outputs :
-  * Cirrus Logic CS4384 high quality DAC (4/8 outputs used)
-  * 2 Analog stereo outputs - 3.5 mm jack output format, 10 kΩ source impedance 
-* Low Jitter Master Clock :
-  * Cirrus Logic clock generator and clock multiplier/jitter reduced clock frequency synthesizer CS2100
+  * Cirrus Logic CS4384 high quality DAC (4/8 channels used)
+  * 2 Analog stereo outputs - 3.5 mm jack output format, 600Ω source impedance 
+* Low-Jitter Master Clock :
+  * Cirrus Logic CS2100 clock generator and clock multiplier/jitter-reduced clock frequency synthesizer 
 * XTAG programming port
 * Expansion header :
   * I2C-SDA, I2C-SCL, 5V, GND, GPIO
