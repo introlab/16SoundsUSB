@@ -29,6 +29,8 @@ We designed this sound card to work with our [ODAS](https://github.com/introlab/
 ![16SoundsUSB Top](https://github.com/introlab/16SoundsUSB/blob/master/images/16SoundsUSB_Top.png)
 ![16SoundsUSB Bottom](https://github.com/introlab/16SoundsUSB/blob/master/images/16SoundsUSB_Bottom.png)
 
+## Regulatory Compliance
+Please read the [Regulatory Compliance Wiki Page](https://github.com/introlab/16SoundsUSB/wiki/Regulatory-Compliance).
 
 ## License
 
