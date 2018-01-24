@@ -19,6 +19,7 @@
   * External 5V power supply
 * Supported Operating Systems :
   * Mac OSX, Linux, Windows 10 (UAC2 not working yet)
+* Hand assembly possible
 
 ## Pictures
 
