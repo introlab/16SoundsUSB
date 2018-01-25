@@ -13,16 +13,17 @@ We designed this sound card to work with our [ODAS](https://github.com/introlab/
   * Cirrus Logic CS2100 clock generator and clock multiplier/jitter-reduced clock frequency synthesizer 
 * XTAG programming port
 * Expansion header :
-  * I2C-SDA, I2C-SCL, 5.6V (needs to be regulated), GND, GPIO
+  * I2C-SDA, I2C-SCL, GPIO, GND, 5.6V (output of boost switching pre-regulator)
 * Supported Sampling Rates :
   * 8kHz, 11.050kHz, 16kHz, 22.050kHz, 32kHz, 44.1 kHz, 48 kHz, 88.2kHz, 96 kHz
 * Power :
   * USB Powered or
   * External 5V power supply
+  * Measured current draw at 5V input for standard firmware: 600mA
 * Supported Operating Systems :
   * Mac OSX, Linux, Windows 10 (UAC2 not working yet)
 * Hand assembly is possible :
-  * Some packages require heat gun and solder paste.
+  * Mostly TQFP, SOIC packages on-board. Solder paste and heat gun recommended for 2 DFN-6 packages. 
 
 ## Pictures
 
