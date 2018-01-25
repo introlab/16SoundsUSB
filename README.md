@@ -2,6 +2,9 @@
 
 We designed this sound card to work with our [ODAS](https://github.com/introlab/odas) sound source localization, tracking and separation library.
 
+## Latest Release
+* [16SoundsUSB REV 1.0](https://github.com/introlab/16SoundsUSB/releases/tag/rev1.0)
+
 ## Features
 
 * 16 Synchronized Differential Inputs :
