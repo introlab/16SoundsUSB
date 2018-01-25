@@ -128,7 +128,7 @@ Configuration6_Item1=Record=ExportSTEPView|ExportComponentOptions=0|ExportModels
 OutputType7=PDF3D
 OutputName7=PDF3D
 OutputCategory7=Documentation
-OutputDocumentPath7=PCB3.PcbDoc
+OutputDocumentPath7=
 OutputVariantName7=
 OutputEnabled7=0
 OutputEnabled7_OutputMedium1=0
@@ -166,7 +166,7 @@ MarkPortsId2=1
 GenerateTOC=1
 ShowComponentParameters2=1
 GlobalBookmarks2=0
-OutputFilePath3=C:\Travail\Introlab\XMOS\Project Outputs for 16SoundsUSB\2018-01-04\
+OutputFilePath3=C:\Travail\Introlab\GitIntrolab\16SoundsUSB\Hardware\AltiumPCB\Project Outputs for 16SoundsUSB\2018-01-25\
 ReleaseManaged3=0
 OutputBasePath3=Project Outputs for 16SoundsUSB\
 OutputPathMedia3==CurrentDate
@@ -207,7 +207,7 @@ GlobalBookmarks4=0
 [GeneratedFilesSettings]
 RelativeOutputPath2=C:\Travail\Introlab\XMOS\Project Outputs for 16SoundsUSB\2018-01-04\16SoundsUSB.PDF
 OpenOutputs2=1
-RelativeOutputPath3=C:\Travail\Introlab\XMOS\Project Outputs for 16SoundsUSB\2018-01-04\
+RelativeOutputPath3=C:\Travail\Introlab\GitIntrolab\16SoundsUSB\Hardware\AltiumPCB\Project Outputs for 16SoundsUSB\2018-01-25\
 OpenOutputs3=1
 AddToProject3=1
 TimestampFolder3=0
