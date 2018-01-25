@@ -6,7 +6,7 @@
 * source /Applications/XMOS_xTIMEcomposer_Community_14.2.3/SetEnv.sh
 
 2. Flash with xflash
-* /Applications/XMOS_xTIMEcomposer_Community_14.2.3/bin/xflash 16SoundsUSB_REV1_0FW.xe
+* /Applications/XMOS_xTIMEcomposer_Community_14.2.3/bin/xflash <Firmware .xe file>
 
 # Building the firmware
 
