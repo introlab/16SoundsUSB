@@ -20,7 +20,7 @@ We designed this sound card to work with our [ODAS](https://github.com/introlab/
 * Expansion header :
   * I2C-SDA, I2C-SCL, GPIO, GND, 5.6V (output of boost switching pre-regulator)
 * Supported Sampling Rates :
-  * 8kHz, 11.050kHz, 16kHz, 22.050kHz, 32kHz, 44.1 kHz, 48 kHz, 88.2kHz, 96 kHz
+  * 8kHz, 11.025kHz, 16kHz, 22.050kHz, 32kHz, 44.1 kHz, 48 kHz, 88.2kHz, 96 kHz
 * Power :
   * USB Powered or
   * External 5V power supply
