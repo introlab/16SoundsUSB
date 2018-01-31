@@ -1,6 +1,6 @@
 ﻿## 16SoundsUSB - 16 Synchronized Inputs USB (UAC2) Sound Card. ![Analytics](https://ga-beacon.appspot.com/UA-27707792-5/github-main?pixel) 
 
-We designed this sound card to work with our [ODAS](https://github.com/introlab/odas) sound source localization, tracking and separation library.
+We designed this sound card to work with our [ODAS](https://github.com/introlab/odas) sound source localization, tracking and separation library. You can also have a look at the [ODAS GUI](https://github.com/introlab/odas_web/) application. 
 
 ## Latest Release
 * [16SoundsUSB REV 1.0](https://github.com/introlab/16SoundsUSB/releases/tag/rev1.0)
