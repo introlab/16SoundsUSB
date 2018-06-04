@@ -90,7 +90,7 @@ Configuration4_Item1=CaptionAsName
 Configuration4_Name2=Filter
 Configuration4_Item2=545046300E5446696C74657257726170706572000D46696C7465722E416374697665090F46696C7465722E43726974657269610A04000000000000000000
 Configuration4_Name3=General
-Configuration4_Item3=OpenExported=True|AddToProject=True|ForceFit=False|NotFitted=False|Database=False|IncludePCBData=False|IncludeVaultData=False|ShowExportOptions=True|TemplateFilename=|BatchMode=5|FormWidth=942|FormHeight=641|SupplierProdQty=1|SupplierAutoQty=False|SupplierUseCachedPricing=False|SupplierCurrency=<none>
+Configuration4_Item3=OpenExported=True|AddToProject=True|ForceFit=False|NotFitted=False|Database=False|DatabasePriority=False|IncludePCBData=False|IncludeVaultData=False|IncludeAlternatives=False|ShowExportOptions=True|TemplateFilename=|BatchMode=5|FormWidth=1667|FormHeight=1156|SupplierProdQty=1|SupplierAutoQty=False|SupplierUseCachedPricing=False|SupplierCurrency=<none>
 Configuration4_Name4=GroupOrder
 Configuration4_Item4=NI=True|Supplier1_PN=True|Value=True|Comment=True|Footprint=True
 Configuration4_Name5=OutputConfigurationParameter1
@@ -141,7 +141,7 @@ Configuration7_Name1=OutputConfigurationParameter1
 Configuration7_Item1=Record=ExportPDF3DSetting|Version=110|Format=0|Flags=8158|Scheme=0|ViewColorR0=255|ViewColorG0=255|ViewColorB0=255|ViewLignt0=9|ViewColorR1=255|ViewColorG1=255|ViewColorB1=255|ViewLignt1=9|ViewColorR2=255|ViewColorG2=255|ViewColorB2=255|ViewLignt2=9|ViewColorR3=255|ViewColorG3=255|ViewColorB3=255|ViewLignt3=9
 
 [PublishSettings]
-OutputFilePath2=C:\Travail\Introlab\XMOS\Project Outputs for 16SoundsUSB\2018-01-04\16SoundsUSB.PDF
+OutputFilePath2=C:\Travail\Introlab\GitIntrolab\16SoundsUSB\Hardware\AltiumPCB\Project Outputs for 16SoundsUSB\2018-04-27\16SoundsUSB.PDF
 ReleaseManaged2=0
 OutputBasePath2=Project Outputs for 16SoundsUSB\
 OutputPathMedia2==CurrentDate
@@ -166,7 +166,7 @@ MarkPortsId2=1
 GenerateTOC=1
 ShowComponentParameters2=1
 GlobalBookmarks2=0
-OutputFilePath3=C:\Travail\Introlab\GitIntrolab\16SoundsUSB\Hardware\AltiumPCB\Project Outputs for 16SoundsUSB\2018-01-25\
+OutputFilePath3=C:\Travail\Introlab\GitIntrolab\16SoundsUSB\Hardware\AltiumPCB\Project Outputs for 16SoundsUSB\2018-04-27\
 ReleaseManaged3=0
 OutputBasePath3=Project Outputs for 16SoundsUSB\
 OutputPathMedia3==CurrentDate
@@ -205,9 +205,9 @@ ShowComponentParameters4=1
 GlobalBookmarks4=0
 
 [GeneratedFilesSettings]
-RelativeOutputPath2=C:\Travail\Introlab\XMOS\Project Outputs for 16SoundsUSB\2018-01-04\16SoundsUSB.PDF
+RelativeOutputPath2=C:\Travail\Introlab\GitIntrolab\16SoundsUSB\Hardware\AltiumPCB\Project Outputs for 16SoundsUSB\2018-04-27\16SoundsUSB.PDF
 OpenOutputs2=1
-RelativeOutputPath3=C:\Travail\Introlab\GitIntrolab\16SoundsUSB\Hardware\AltiumPCB\Project Outputs for 16SoundsUSB\2018-01-25\
+RelativeOutputPath3=C:\Travail\Introlab\GitIntrolab\16SoundsUSB\Hardware\AltiumPCB\Project Outputs for 16SoundsUSB\2018-04-27\
 OpenOutputs3=1
 AddToProject3=1
 TimestampFolder3=0
