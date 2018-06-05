@@ -1,6 +1,11 @@
 ﻿## 16SoundsUSB - 16 Synchronized Inputs USB (UAC2) Sound Card. ![Analytics](https://ga-beacon.appspot.com/UA-27707792-5/github-main?pixel) 
 
-We designed this sound card to work with our [ODAS](https://github.com/introlab/odas) sound source localization, tracking and separation library.
+We designed this sound card to work with our [ODAS](https://github.com/introlab/odas) sound source localization, tracking and separation library. You can also have a look at the [ODAS GUI](https://github.com/introlab/odas_web/) application. 
+
+## Latest Release
+* [16SoundsUSB REV 1.0](https://github.com/introlab/16SoundsUSB/releases/tag/rev1.0)
+  * [16SoundsUSB_Schematic](https://github.com/introlab/16SoundsUSB/releases/download/rev1.0/16SoundsUSB_Schematic_REV_1_0.PDF)
+  * [16SoundsUSB_PCB_Fab_Assembly](https://github.com/introlab/16SoundsUSB/releases/download/rev1.0/16SoundsUSB_PCB_Fab_Assembly_REV_1_0.zip)
 
 ## Features
 
@@ -15,7 +20,7 @@ We designed this sound card to work with our [ODAS](https://github.com/introlab/
 * Expansion header :
   * I2C-SDA, I2C-SCL, GPIO, GND, 5.6V (output of boost switching pre-regulator)
 * Supported Sampling Rates :
-  * 8kHz, 11.050kHz, 16kHz, 22.050kHz, 32kHz, 44.1 kHz, 48 kHz, 88.2kHz, 96 kHz
+  * 8kHz, 11.025kHz, 16kHz, 22.050kHz, 32kHz, 44.1 kHz, 48 kHz, 88.2kHz, 96 kHz
 * Power :
   * USB Powered or
   * External 5V power supply
