@@ -42,6 +42,11 @@ Please read the [Regulatory Compliance Wiki Page](https://github.com/introlab/16
 
 [Creative Commons Attribution Share Alike 4.0](https://github.com/introlab/16SoundsUSB/blob/master/LICENSE.txt)
 
+## Microphones
+
+[Compatible Electret and MEMS microphones](https://github.com/introlab/xSoundsMicrophones)
+
+
 ## Acknowledgements
 The design is based on the [XMOS xCORE-200 Multichannel Audio Platform](https://www.xmos.com/support/boards?product=18334). This project is supported by [IntRoLab - Intelligent / Interactive / Integrated / Interdisciplinary Robot Lab](https://introlab.3it.usherbrooke.ca/), Sherbrooke, Québec, Canada.
 
