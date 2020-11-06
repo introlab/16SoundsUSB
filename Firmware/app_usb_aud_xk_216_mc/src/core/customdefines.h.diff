@@ -1,0 +1,65 @@
+23,25c23,25
+< //ifndef XCORE_200_MC_AUDIO_HW_VERSION
+< //#define XCORE_200_MC_AUDIO_HW_VERSION 2
+< //#endif
+---
+> #ifndef XCORE_200_MC_AUDIO_HW_VERSION
+> #define XCORE_200_MC_AUDIO_HW_VERSION 2
+> #endif
+49c49
+< #define SELF_POWERED       0 //DL
+---
+> #define SELF_POWERED       1
+58c58
+< #define SPDIF_TX	       0 //DL
+---
+> #define SPDIF_TX	       1
+65c65
+< #define NUM_USB_CHAN_IN    (16)         /* Device to Host */
+---
+> #define NUM_USB_CHAN_IN    (10)         /* Device to Host */
+68c68
+< #define NUM_USB_CHAN_OUT   (4)         /* Host to Device */
+---
+> #define NUM_USB_CHAN_OUT   (10)         /* Host to Device */
+73c73
+< #define I2S_CHANS_DAC      (4)
+---
+> #define I2S_CHANS_DAC      (8)
+78c78
+< #define I2S_CHANS_ADC      (16)
+---
+> #define I2S_CHANS_ADC      (8)
+102,103c102,103
+< #define MCLK_441           (256*44100)   /* 44.1, 88.2 etc */
+< #define MCLK_48            (256*48000)   /* 48, 96 etc */
+---
+> #define MCLK_441           (512*44100)   /* 44.1, 88.2 etc */
+> #define MCLK_48            (512*48000)   /* 48, 96 etc */
+106d105
+< /* Limited by USB2 bandwidth with 16 channels */
+108c107
+< #define MAX_FREQ           (96000)
+---
+> #define MAX_FREQ           (192000)
+111,113d109
+< #define MIN_FREQ 8000
+< #define DEFAULT_FREQ 48000
+< 
+117c113
+< #define VENDOR_ID          (0x20B1) /* Undefined VID */
+---
+> #define VENDOR_ID          (0x20B1) /* XMOS VID */
+120,127d115
+< #define PRODUCT_STR_A1 "16SoundsUSB Audio 1.0"
+< #define PRODUCT_STR_A2 "16SoundsUSB Audio 2.0"
+< #define AUDIO_CLASS_FALLBACK 1 //enable
+< #define AUDIO_CLASS 2 //Default class 2
+< #define VENDOR_STR "IntRoLab"
+< //#define BCD_DEVICE 0x0001
+< 
+< 
+132c120
+< #define HID_CONTROLS       0
+---
+> #define HID_CONTROLS       1
