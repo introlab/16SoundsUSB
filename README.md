@@ -9,7 +9,7 @@
 We designed this sound card to work with our [ODAS](https://github.com/introlab/odas) sound source localization, tracking and separation library. You can also have a look at the [ODAS GUI](https://github.com/introlab/odas_web/) application. 
 
 ## 
-* Please contact us if you need an already assembled [16SoundsUSB kit].(https://github.com/introlab/16SoundsUSB/wiki/Kits)
+* Please contact us if you need an already assembled [16SoundsUSB kit](https://github.com/introlab/16SoundsUSB/wiki/Kits).
 
 ## Latest Release
 * [16SoundsUSB REV 1.0](https://github.com/introlab/16SoundsUSB/releases/tag/rev1.0)
