@@ -1,0 +1,16 @@
+5c5
+< TARGET = xk-audio-216-mc.xn
+---
+> TARGET = 16SoundsUSB.xn
+14c14
+< USED_MODULES = module_usb_shared module_xud module_usb_audio module_spdif_tx module_spdif_rx module_usb_midi module_dfu module_usb_device module_i2c_shared module_i2c_single_port module_adat_tx module_adat_rx
+---
+> USED_MODULES = module_usb_shared module_xud module_usb_audio module_dfu module_usb_device module_i2c_shared module_i2c_single_port 
+89c89
+< XCC_FLAGS_2i10o10xxxxxx = $(BUILD_FLAGS) -DMIDI=0 -DSPDIF_TX=0
+---
+> XCC_FLAGS_2i10o10xxxxxx = $(BUILD_FLAGS) -DMIDI=0 -DSPDIF_TX=0 -DMAX_FREQ=96000
+97c97
+< XCC_FLAGS_2i10o10xsxxxx = $(BUILD_FLAGS) -DMIDI=0 -DSPDIF_TX=1
+---
+> XCC_FLAGS_2i10o10xsxxxx = $(BUILD_FLAGS) -DMIDI=0 -DSPDIF_TX=1 -DMAX_FREQ=96000

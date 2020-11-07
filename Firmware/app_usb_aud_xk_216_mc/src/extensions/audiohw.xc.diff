@@ -1,134 +1,134 @@
 6c6
-< //#include "gpio_access.h"
+< #include "gpio_access.h"
 ---
-> #include "gpio_access.h"
+> //#include "gpio_access.h"
 18c18
-< //#if defined(SPDIF_RX) || defined(ADAT_RX)
+< #if defined(SPDIF_RX) || defined(ADAT_RX)
 ---
-> #if defined(SPDIF_RX) || defined(ADAT_RX)
+> //#if defined(SPDIF_RX) || defined(ADAT_RX)
 20c20
-< //#endif
----
-> #endif
-22,24c22
-< //Modified
-< on tile[0] : out port p_gpio_reset = XS1_PORT_4E;
-< on tile[0] : out port p_gpio_leds = PORT_LEDS;
----
-> on tile[0] : out port p_gpio = XS1_PORT_8C;
-35,36c33
-< #define ADC_REGWRITE1(reg, val) {data[0] = val; i2c_shared_master_write_reg(r_i2c, CS5368_I2C_ADDR1, reg, data, 1);}
-< #define ADC_REGWRITE2(reg, val) {data[0] = val; i2c_shared_master_write_reg(r_i2c, CS5368_I2C_ADDR2, reg, data, 1);}
----
-> #define ADC_REGWRITE(reg, val) {data[0] = val; i2c_shared_master_write_reg(r_i2c, CS5368_I2C_ADDR, reg, data, 1);}
-126,128c123,124
-<     //set_gpio(P_GPIO_DAC_RST_N, 0);
-<     //set_gpio(P_GPIO_ADC_RST_N, 0);
-<     p_gpio_reset <: 0x00;
----
->     set_gpio(P_GPIO_DAC_RST_N, 0);
->     set_gpio(P_GPIO_ADC_RST_N, 0);
-130d125
-< #if 0
-141d135
 < #endif
-145c139
-<     //set_gpio(P_GPIO_PLL_SEL, 1);
 ---
->     set_gpio(P_GPIO_PLL_SEL, 1);
-166,169c160,161
-< 	//set_gpio(P_GPIO_ADC_RST_N, 0);
-< 	//set_gpio(P_GPIO_DAC_RST_N, 0);
-< 	p_gpio_reset <: 0x00;
-< 	p_gpio_leds <: 0x00;
+> //#endif
+22c22,24
+< on tile[0] : out port p_gpio = XS1_PORT_8C;
 ---
-> 	set_gpio(P_GPIO_ADC_RST_N, 0);
-> 	set_gpio(P_GPIO_DAC_RST_N, 0);
-208d199
-< //NO DAC INIT
-210,213d200
-<     p_gpio_reset <: 0x0F;
-<     p_gpio_leds <: 0x0F;
-<     wait_us(500);
-< 
-220c207
-<         //set_gpio(P_GPIO_DAC_RST_N, 1);
+> //Modified
+> on tile[0] : out port p_gpio_reset = XS1_PORT_4E;
+> on tile[0] : out port p_gpio_leds = PORT_LEDS;
+33c35,36
+< #define ADC_REGWRITE(reg, val) {data[0] = val; i2c_shared_master_write_reg(r_i2c, CS5368_I2C_ADDR, reg, data, 1);}
 ---
->         set_gpio(P_GPIO_DAC_RST_N, 1);
-228c215
-<          * bit[4:1] : DAC Pair Disable (DACx_DIS)  : Dac 3-4 disabled
+> #define ADC_REGWRITE1(reg, val) {data[0] = val; i2c_shared_master_write_reg(r_i2c, CS5368_I2C_ADDR1, reg, data, 1);}
+> #define ADC_REGWRITE2(reg, val) {data[0] = val; i2c_shared_master_write_reg(r_i2c, CS5368_I2C_ADDR2, reg, data, 1);}
+123,124c126,128
+<     set_gpio(P_GPIO_DAC_RST_N, 0);
+<     set_gpio(P_GPIO_ADC_RST_N, 0);
 ---
->          * bit[4:1] : DAC Pair Disable (DACx_DIS)  : All Dac Pairs enabled
-231c218
-<         DAC_REGWRITE(CS4384_MODE_CTRL, 0xf9);
+>     //set_gpio(P_GPIO_DAC_RST_N, 0);
+>     //set_gpio(P_GPIO_ADC_RST_N, 0);
+>     p_gpio_reset <: 0x00;
+125a130
+> #if 0
+135a141
+> #endif
+139c145
+<     set_gpio(P_GPIO_PLL_SEL, 1);
 ---
->         DAC_REGWRITE(CS4384_MODE_CTRL, 0xe1);
-264c251
-<          * bit[4:1] : DAC Pair Disable (DACx_DIS)  : Dac 3-4 disabled
+>     //set_gpio(P_GPIO_PLL_SEL, 1);
+160,161c166,169
+< 	set_gpio(P_GPIO_ADC_RST_N, 0);
+< 	set_gpio(P_GPIO_DAC_RST_N, 0);
 ---
->          * bit[4:1] : DAC Pair Disable (DACx_DIS)  : All Dac Pairs enabled
-267c254
-<         DAC_REGWRITE(CS4384_MODE_CTRL, 0xB8);
+> 	//set_gpio(P_GPIO_ADC_RST_N, 0);
+> 	//set_gpio(P_GPIO_DAC_RST_N, 0);
+> 	p_gpio_reset <: 0x00;
+> 	p_gpio_leds <: 0x00;
+199a208
+> //NO DAC INIT
+200a210,213
+>     p_gpio_reset <: 0x0F;
+>     p_gpio_leds <: 0x0F;
+>     wait_us(500);
+> 
+207c220
+<         set_gpio(P_GPIO_DAC_RST_N, 1);
 ---
->         DAC_REGWRITE(CS4384_MODE_CTRL, 0xA0);
-275c262
-<         //set_gpio(P_GPIO_DSD_MODE, 0);
+>         //set_gpio(P_GPIO_DAC_RST_N, 1);
+215c228
+<          * bit[4:1] : DAC Pair Disable (DACx_DIS)  : All Dac Pairs enabled
 ---
->         set_gpio(P_GPIO_DSD_MODE, 0);
-278c265
-<         //set_gpio(P_GPIO_ADC_RST_N, 1);
+>          * bit[4:1] : DAC Pair Disable (DACx_DIS)  : Dac 3-4 disabled
+218c231
+<         DAC_REGWRITE(CS4384_MODE_CTRL, 0xe1);
 ---
->         set_gpio(P_GPIO_ADC_RST_N, 1);
-281c268
-<             unsigned dif = 0, mode = 0, clkmode = 0, mdiv = 0;
+>         DAC_REGWRITE(CS4384_MODE_CTRL, 0xf9);
+251c264
+<          * bit[4:1] : DAC Pair Disable (DACx_DIS)  : All Dac Pairs enabled
 ---
->             unsigned dif = 0, mode = 0;
-303,304c290,291
-<             * Bit[6]: CLKMODE: Setting puts part in 384x mode: Set according to sample rate
-<             * Bit[5:4]: MDIV[1:0]: Set according to sample rate
+>          * bit[4:1] : DAC Pair Disable (DACx_DIS)  : Dac 3-4 disabled
+254c267
+<         DAC_REGWRITE(CS4384_MODE_CTRL, 0xA0);
 ---
->             * Bit[6]: CLKMODE: Setting puts part in 384x mode
->             * Bit[5:4]: MDIV[1:0]: Set to 01 for /2
-308,322c295
-<             if(mClk == MCLK_441) {  // Sample rate uses MCLK_441 (256*44100)
-< 
-<                 clkmode = 0b0;  // Set to 0 for /1
-<                 mdiv = samFreq < 32000 ? 0b11 : 0b01;   // Set to 2 for /4 for lower sample rates
-<             }
-< 
-<             else { // Sample rate uses MCLK_48 (256*48000)
-< 
-<                 clkmode = samFreq < 44100 ? 0b1 : 0b0;  // Set to 1 for /1.5 for lower sample rates
-<                 mdiv = samFreq < 44100 ? 0b11 : 0b01;   // Set to 2 for /4 for lower sample rates
-< 
-<             }
-< 
-<             ADC_REGWRITE1(CS5368_GCTL_MDE, 0b10010000 | (clkmode << 6) | (mdiv << 4) | (dif << 2) | mode);
-<             ADC_REGWRITE2(CS5368_GCTL_MDE, 0b10010000 | (clkmode << 6) | (mdiv << 4) | (dif << 2) | mode);
+>         DAC_REGWRITE(CS4384_MODE_CTRL, 0xB8);
+262c275
+<         set_gpio(P_GPIO_DSD_MODE, 0);
 ---
->             ADC_REGWRITE(CS5368_GCTL_MDE, 0b10010000 | (dif << 2) | mode);
-331,332c304
-<         ADC_REGWRITE1(CS5368_PWR_DN, 0b00000000);
-<         ADC_REGWRITE2(CS5368_PWR_DN, 0b00000000);
+>         //set_gpio(P_GPIO_DSD_MODE, 0);
+265c278
+<         set_gpio(P_GPIO_ADC_RST_N, 1);
 ---
->         ADC_REGWRITE(CS5368_PWR_DN, 0b00000000);
-340c312
-<         //set_gpio(P_GPIO_DAC_RST_N, 1);//De-assert DAC reset
+>         //set_gpio(P_GPIO_ADC_RST_N, 1);
+268c281
+<             unsigned dif = 0, mode = 0;
 ---
->         set_gpio(P_GPIO_DAC_RST_N, 1);//De-assert DAC reset
-348c320
-<          * bit[4:1] : DAC Pair Disable (DACx_DIS)  : Dac 3-4 disabled
+>             unsigned dif = 0, mode = 0, clkmode = 0, mdiv = 0;
+290,291c303,304
+<             * Bit[6]: CLKMODE: Setting puts part in 384x mode
+<             * Bit[5:4]: MDIV[1:0]: Set to 01 for /2
 ---
->          * bit[4:1] : DAC Pair Disable (DACx_DIS)  : All Dac Pairs enabled
-351c323
-<         DAC_REGWRITE(CS4384_MODE_CTRL, 0b11011001);
+>             * Bit[6]: CLKMODE: Setting puts part in 384x mode: Set according to sample rate
+>             * Bit[5:4]: MDIV[1:0]: Set according to sample rate
+295c308,322
+<             ADC_REGWRITE(CS5368_GCTL_MDE, 0b10010000 | (dif << 2) | mode);
 ---
->         DAC_REGWRITE(CS4384_MODE_CTRL, 0b11000001);
-386c358
-<          * bit[4:1] : DAC Pair Disable (DACx_DIS)  : Dac 3-4 disabled
+>             if(mClk == MCLK_441) {  // Sample rate uses MCLK_441 (256*44100)
+> 
+>                 clkmode = 0b0;  // Set to 0 for /1
+>                 mdiv = samFreq < 32000 ? 0b11 : 0b01;   // Set to 2 for /4 for lower sample rates
+>             }
+> 
+>             else { // Sample rate uses MCLK_48 (256*48000)
+> 
+>                 clkmode = samFreq < 44100 ? 0b1 : 0b0;  // Set to 1 for /1.5 for lower sample rates
+>                 mdiv = samFreq < 44100 ? 0b11 : 0b01;   // Set to 2 for /4 for lower sample rates
+> 
+>             }
+> 
+>             ADC_REGWRITE1(CS5368_GCTL_MDE, 0b10010000 | (clkmode << 6) | (mdiv << 4) | (dif << 2) | mode);
+>             ADC_REGWRITE2(CS5368_GCTL_MDE, 0b10010000 | (clkmode << 6) | (mdiv << 4) | (dif << 2) | mode);
+304c331,332
+<         ADC_REGWRITE(CS5368_PWR_DN, 0b00000000);
 ---
->          * bit[4:1] : DAC Pair Disable (DACx_DIS)  : All Dac Pairs enabled
-389c361
-<         DAC_REGWRITE(CS4384_MODE_CTRL, 0b10011000);
+>         ADC_REGWRITE1(CS5368_PWR_DN, 0b00000000);
+>         ADC_REGWRITE2(CS5368_PWR_DN, 0b00000000);
+312c340
+<         set_gpio(P_GPIO_DAC_RST_N, 1);//De-assert DAC reset
 ---
->         DAC_REGWRITE(CS4384_MODE_CTRL, 0b10000000);
+>         //set_gpio(P_GPIO_DAC_RST_N, 1);//De-assert DAC reset
+320c348
+<          * bit[4:1] : DAC Pair Disable (DACx_DIS)  : All Dac Pairs enabled
+---
+>          * bit[4:1] : DAC Pair Disable (DACx_DIS)  : Dac 3-4 disabled
+323c351
+<         DAC_REGWRITE(CS4384_MODE_CTRL, 0b11000001);
+---
+>         DAC_REGWRITE(CS4384_MODE_CTRL, 0b11011001);
+358c386
+<          * bit[4:1] : DAC Pair Disable (DACx_DIS)  : All Dac Pairs enabled
+---
+>          * bit[4:1] : DAC Pair Disable (DACx_DIS)  : Dac 3-4 disabled
+361c389
+<         DAC_REGWRITE(CS4384_MODE_CTRL, 0b10000000);
+---
+>         DAC_REGWRITE(CS4384_MODE_CTRL, 0b10011000);
