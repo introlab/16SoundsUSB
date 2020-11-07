@@ -10,7 +10,7 @@
 
 # Building the firmware
 
-[You can get the code by agreeing to the licence on the XMOS site](https://www.xmos.ai/download/sw_usb_audio-[sw](6.15.2).zip) and make few changes to the sw_usb_audio-[sw]_6.15.2 reference firmware. Start from the app_usb_aud_xk_216_mc project and change the .xn file, customdefines.h and duplicate the i2c calls in audiohw.xc to configure both codecs. Diff files from version 6.15.2 are provided in the app_usb_aud_xk_216_mc directory for your convinience.
+[You can get the code by agreeing to the licence on the XMOS site](https://www.xmos.ai/download/sw_usb_audio-[sw](6.15.2).zip) and make few changes to the sw_usb_audio-[sw]_6.15.2 reference firmware. Start from the app_usb_aud_xk_216_mc project and change the .xn file, customdefines.h and duplicate the i2c calls in audiohw.xc to configure both codecs. Diff files from version 6.15.2 are provided in the app_usb_aud_xk_216_mc directory for your convenience.
 
 
 # Regulatory Compliance
