@@ -1,0 +1,6 @@
+105a106,108
+>                 PORT_I2S_ADC7,
+> #endif
+> #if I2S_WIRES_ADC > 8
+107a111
+> 
