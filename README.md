@@ -1,4 +1,4 @@
-﻿## 16SoundsUSB - 16 Synchronized Inputs USB (UAC2) Sound Card. ![Analytics](https://ga-beacon.appspot.com/UA-27707792-5/github-main?pixel) 
+﻿## 16SoundsUSB - 16 Synchronized Inputs USB (UAC2) Sound Card. ![Analytics](https://ga-beacon-279122.nn.r.appspot.com/UA-27707792-5/github-main?pixel) 
 
 
 ## Authors
